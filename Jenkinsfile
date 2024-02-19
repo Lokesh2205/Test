@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'The Building the code hellooos'
+                echo 'Building the code'
                 sh 'git checkout main'
             }
         }
