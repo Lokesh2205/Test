@@ -10,6 +10,7 @@ pipeline {
             }
             steps {
                 // Your Maven build steps here
+		sh 'hello maven'
             }
         }
 
@@ -21,6 +22,7 @@ pipeline {
             }
             steps {
                 // Your Node.js build steps here
+		sh 'hello nodejs'
             }
         }
     }
