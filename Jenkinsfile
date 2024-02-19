@@ -5,7 +5,6 @@ pipeline {
             steps {
                 echo 'Building the code'
                 sh 'git checkout main'
-                #sh 'mvn clean package'
             }
         }
         
